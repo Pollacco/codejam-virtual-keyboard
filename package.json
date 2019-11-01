@@ -1,0 +1,28 @@
+{
+  "name": "codejam-virtual-keyboard",
+  "version": "1.0.0",
+  "description": "codejame coding",
+  "main": "main.js",
+  "scripts": {
+    "lint": "eslint --debug ./main.js",
+    "lint:write": "eslint --debug ./main.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pollacco/codejam-virtual-keyboard.git"
+  },
+  "keywords": [
+    "codejam"
+  ],
+  "author": "Pollacco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pollacco/codejam-virtual-keyboard/issues"
+  },
+  "homepage": "https://github.com/Pollacco/codejam-virtual-keyboard#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
